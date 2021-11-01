@@ -1,3 +1,3 @@
 # GamePlay
 
-App criado evento NLW Together da Rocketseat 
+App criado evento NLW Together da Rocketseat 💜
