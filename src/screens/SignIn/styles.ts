@@ -11,11 +11,12 @@ export const styles = StyleSheet.create({
 
   image: {
     width: '100%',
-
+    height: 360
   },
 
   content: {
     marginTop: -40,
+    paddingHorizontal: 50
   },
 
   title: {

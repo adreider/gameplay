@@ -1,15 +1,25 @@
 import React from 'react';
 
 import {
-  View
+  View,
+  Text,
+  Image,
+  TouchableOpacity
 } from 'react-native';
 
 import { styles } from './styles';
+import DiscordImg from '../../assets/discord.png';
 
 export function ButtonIcon(){
   return (
-    <View>
+    <TouchableOpacity style={styles.container}>
+     <View style={styles.iconWrapper}>
+      <Image source={DiscordImg} style={styles.icon} />
+     </View>
 
-    </View>
+    <Text style={styles.title}>
+      Entrar com o Discord
+    </Text>
+    </TouchableOpacity>
   );
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

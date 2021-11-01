@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { View, Text, Image, StatusBar } from "react-native";
 import { styles } from './styles';
 import IllustrationImg from "../../assets/illustration.png";
+import { ButtonIcon } from "../../components/ButtonIcon";
 
 export function SignIn() {
 
@@ -12,6 +13,7 @@ export function SignIn() {
         backgroundColor="transparent"
         translucent
       />
+
       <Image 
       source={IllustrationImg} 
       style={styles.image}
@@ -30,8 +32,14 @@ export function SignIn() {
           favoritos com seus amigos
         </Text>
       </View>
+
+      <ButtonIcon />
      
     </View>
   )
 }
 
+
+
+
+// leia atentamente as features ligaturs 
