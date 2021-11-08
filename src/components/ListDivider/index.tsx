@@ -6,10 +6,21 @@ import {
 
 import { styles } from './styles';
 
-export function ListDivider(){
+type Props = {
+  isCenterd?: boolean;
+}
+
+export function ListDivider({ isCenterd }: Props){
   return (
     <View 
-      style={styles.container}
+      style={[styles.container,
+      isCenterd ? {
+        marginVertical: 12,
+      } : {
+        marginTop: 2,
+        marginBottom: 31
+      }
+      ]}
     />
   );
 }
